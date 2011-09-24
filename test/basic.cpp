@@ -141,7 +141,7 @@ void test_unordered()
 	table.clear(&obj::m_unordered);
 }
 
-int no_main(int argc, char* argv[])
+int main(int argc, char* argv[])
 {
 	test_basic();
 	test_iteration();
