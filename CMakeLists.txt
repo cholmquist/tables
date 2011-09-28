@@ -14,3 +14,4 @@ link_directories ( ${Boost_LIBRARY_DIRS} )
 include_directories( ${Boost_INCLUDE_DIRS} )
 
 add_subdirectory(test)
+add_subdirectory(benchmark)
